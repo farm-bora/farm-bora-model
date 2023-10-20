@@ -15,7 +15,7 @@ REGISTRY ?= c3n7/farm-bora-model
 docker: docker-build docker-push
 
 docker-build:
-	docker build . --target runner -t ${REGISTRY}:${VERSION}
+	docker build . -t ${REGISTRY}:${VERSION}
 
 docker-push:
 	docker push ${REGISTRY}:${VERSION}
