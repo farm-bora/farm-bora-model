@@ -1,0 +1,8 @@
+version: "3"
+services:
+  runner:
+    build: .
+    image: farm_bora/ml_backend
+    # ports:
+    #   - 8000:8000
+    network_mode: "host"
