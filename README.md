@@ -5,3 +5,5 @@
 [![Static Badge](https://img.shields.io/badge/Browse_On-Code_Engine-blue)](https://farm-bora-model.18rsgxmzc56t.eu-gb.codeengine.appdomain.cloud/)
 
 Leaf disease detection model.
+
+![loss and accuracy](./effnetb2_leaf_disease_loss_acc.png)
